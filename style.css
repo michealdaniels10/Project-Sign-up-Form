@@ -1,0 +1,183 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+  width: 35%;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  min-height: 100vh;
+}
+
+/* LOGO AREA */
+
+.logo-container {
+  width: 100%;
+  margin-top: 180px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.logo-container img {
+  width: 80px;
+}
+
+.logo-container h1 {
+  color: white;
+  font-size: 5rem;
+  margin-left: 10px;
+
+  font-family: "Cinzel", serif;
+}
+
+/* PHOTO CREDIT */
+
+.credit {
+  position: absolute;
+  bottom: 10px;
+
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+/* MAIN CONTENT */
+
+.main-content {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #f9fafb;
+}
+
+/* INTRO */
+
+.intro {
+  padding: 40px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  max-width: 650px;
+}
+
+/* FORM SECTION */
+
+.form-section {
+  background-color: white;
+  padding: 30px 40px;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+  margin-bottom: 20px;
+}
+
+/* FORM LAYOUT */
+
+.form-row {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+/* INPUTS */
+
+input {
+  width: 250px;
+  padding: 8px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+}
+
+/* FOCUS STATE */
+
+input:focus {
+  outline: none;
+
+  border: 1px solid blue;
+
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.3);
+}
+
+/* INVALID INPUTS */
+
+input:user-invalid {
+  border: 1px solid red;
+}
+
+/* SUBMIT SECTION */
+
+.submit-section {
+  padding: 40px;
+}
+
+/* BUTTON */
+
+button {
+  background-color: #596d48;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 8px;
+
+  padding: 12px 45px;
+
+  font-size: 1rem;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  margin-bottom: 20px;
+}
+
+/* LOGIN LINK */
+
+a {
+  color: #596d48;
+  text-decoration: none;
+  font-weight: bold;
+}
